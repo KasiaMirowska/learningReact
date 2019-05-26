@@ -1,9 +1,10 @@
 import React from 'react';
-import './Searchbox.css';
-import {fontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import './SearchBox.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
- 
-class SearchBox extends Component {
+// "@fortawesome/fontawesome-svg-core": "^1.2.18",
+// "@fortawesome/free-solid-svg-icons"
+export default class SearchBox extends React.Component {
     render(){
         return (
             <div className='SearchBox'>
@@ -13,5 +14,3 @@ class SearchBox extends Component {
         )
     }
 }
-
-export default SearchBox;
